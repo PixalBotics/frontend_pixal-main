@@ -178,12 +178,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </ToastProvider>
         </AuthProvider>
         <Analytics />
- <script
-  src="https://convergit-saas.onrender.com/widget.js"
-  data-widget-key="wgt_gQ-xN5KBcHChtgirgc0G4w"
-  data-app-origin="https://convergit-saas.onrender.com"
+<script
+  src="https://d16o8s09pifhtc.cloudfront.net/widget/pixalbotics-dev-test/pixalbotic.js"
   defer
-></script>
+ data-api-origin="https://api.convergeit.app"></script>
       </body>
     </html>
   );
