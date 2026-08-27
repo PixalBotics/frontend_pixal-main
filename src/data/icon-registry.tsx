@@ -1,6 +1,6 @@
 'use client';
 
-import { FiCode, FiCpu, FiLayers, FiPackage, FiPrinter, FiZap } from 'react-icons/fi';
+import { FiCode, FiCpu, FiLayers, FiPenTool, FiSmartphone, FiTrendingUp, FiZap } from 'react-icons/fi';
 import {
   RocketIcon,
   ZapIcon,
@@ -15,8 +15,9 @@ export const contentIcons = {
   FiCode,
   FiCpu,
   FiLayers,
-  FiPackage,
-  FiPrinter,
+  FiPenTool,
+  FiSmartphone,
+  FiTrendingUp,
   FiZap,
   RocketIcon,
   ZapIcon,

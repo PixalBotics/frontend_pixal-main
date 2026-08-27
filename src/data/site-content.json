@@ -33,8 +33,8 @@
     "titleGradientSoftware": "Software",
     "titleLine2Amp": "&",
     "titleGradientSmart": "Smart",
-    "titleGradientPackaging": "Packaging",
-    "subtitle": "From custom SaaS platforms and AI-powered products to structural packaging design and commercial print—we are your full-service technology partner. One team, every deliverable.",
+    "titleGradientSecondary": "Solutions",
+    "subtitle": "From custom SaaS platforms and AI-powered products to mobile apps and digital marketing—we are your full-service technology partner. One team, every deliverable.",
     "primaryCta": {
       "label": "Start Your Project",
       "href": "/booking"
@@ -60,19 +60,19 @@
         "icon": "FiCpu"
       },
       {
-        "id": "pack",
-        "label": "Packaging Design",
-        "icon": "FiPackage"
+        "id": "mobile",
+        "label": "Mobile App Development",
+        "icon": "FiSmartphone"
       },
       {
-        "id": "struct",
-        "label": "Structural Packaging",
-        "icon": "FiLayers"
+        "id": "crm",
+        "label": "CRM & GoHighLevel",
+        "icon": "UsersIcon"
       },
       {
-        "id": "print",
-        "label": "Printing & Labels",
-        "icon": "FiPrinter"
+        "id": "marketing",
+        "label": "Digital Marketing & Design",
+        "icon": "FiTrendingUp"
       }
     ],
     "stats": [
@@ -81,8 +81,8 @@
         "label": "AI Software Projects"
       },
       {
-        "value": "150+",
-        "label": "Packaging Designs Delivered"
+        "value": "120+",
+        "label": "Mobile & Web Apps Shipped"
       },
       {
         "value": "50+",
@@ -96,9 +96,9 @@
     "imageAlts": {
       "workspace": "Developer workspace with pixelbolts branding and neon city view",
       "saasCard": "SaaS dashboards and analytics interfaces",
-      "packagingCard": "Packaging design and print production graphics",
+      "secondaryCard": "Mobile app and product design mockups",
       "saasCardMobile": "SaaS and analytics dashboard visual",
-      "packagingMobile": "Packaging and print design visual",
+      "secondaryMobile": "Mobile app and product design visual",
       "logoCenter": "Pixalbotics logo",
       "mascotDesktop": "Pixalbotics hero logo with robot mascot",
       "mascotMobile": "Pixalbotics hero brand visual"
@@ -106,9 +106,9 @@
   },
   "aboutSection": {
     "badge": "About Us",
-    "headlineLead": "Software Agency + ",
-    "headlineAccent": "packaging partner",
-    "paragraph2": "Designers and engineers work together under one roof: discovery, UX, build, launch, and ongoing support—with optional print-ready assets when you ship physical goods.",
+    "headlineLead": "Full-Service ",
+    "headlineAccent": "software agency",
+    "paragraph2": "Designers and engineers work together under one roof: discovery, UX, build, launch, and ongoing support—for web, mobile, and AI-powered products alike.",
     "ctas": {
       "exploreServices": {
         "label": "Explore our services",
@@ -119,9 +119,9 @@
         "href": "/projects"
       }
     },
-    "panelLead": "Software + packaging — ",
+    "panelLead": "Software, end to end — ",
     "panelAccent": "one partner",
-    "panelSubtext": "Digital craft · Physical brand delivery",
+    "panelSubtext": "Strategy · Design · Engineering",
     "imageAlts": {
       "wordmark": "Pixalbotics — PIXALBOTICS wordmark and World of AI identity",
       "cube": "Pixalbotics — gradient cube brand mark"
@@ -136,13 +136,13 @@
       {
         "icon": "SparklesIcon",
         "title": "AI & automation",
-        "description": "Practical AI integration, workflows, and intelligent products.",
+        "description": "AI-powered automation workflows, chatbots, and intelligent products.",
         "color": "from-violet-500 to-fuchsia-500"
       },
       {
         "icon": "ZapIcon",
-        "title": "Packaging & print",
-        "description": "Structural packaging design plus commercial printing and labels.",
+        "title": "Mobile app development",
+        "description": "Native-feel iOS and Android apps built for speed and scale.",
         "color": "from-pink-500 to-orange-500"
       },
       {
@@ -163,7 +163,7 @@
       },
       {
         "type": "mutedPink",
-        "text": "packaging design"
+        "text": "mobile app development"
       },
       {
         "type": "text",
@@ -171,24 +171,25 @@
       },
       {
         "type": "mutedCyan",
-        "text": "commercial printing"
+        "text": "digital marketing & design"
       },
       {
         "type": "text",
-        "text": "—so your product story stays consistent from code to carton."
+        "text": "—so your product story stays consistent across every screen."
       }
     ]
   },
   "servicesSection": {
     "headerBadge": "Our Services",
     "title": "Complete Technology Solutions",
-    "subtitle": "From SaaS and AI software to packaging design, printing, and modern web apps — we deliver end-to-end solutions that drive growth online and on the shelf",
+    "subtitle": "From SaaS and AI software to mobile apps, CRM & GoHighLevel, and digital marketing — we deliver end-to-end solutions that drive real growth",
     "summaryTitle": "Your Complete Technology Partner",
-    "summarySubtitle": "We specialize in building modern, scalable solutions across all technology domains. Whether you need a SaaS product, mobile app, e-commerce platform, or custom software — we deliver excellence.",
+    "summarySubtitle": "We specialize in building modern, scalable solutions across all technology domains. Whether you need a SaaS product, mobile app, CRM, or custom software — we deliver excellence.",
     "techBadges": [
       "SaaS Products",
       "CRMs",
       "Gohighlevel",
+      "GHL AI Assistants",
       "AI Modern",
       "React Native",
       "Next.js",
@@ -196,7 +197,9 @@
       "Node.js",
       "Modern Apps",
       "Modern Websites",
-      "E-Commerce"
+      "E-Commerce",
+      "Funnel Builds",
+      "Digital Signage"
     ],
     "cards": [
       {
@@ -209,8 +212,8 @@
       },
       {
         "icon": "UsersIcon",
-        "title": "CRMs & Gohighlevel",
-        "description": "Custom CRM development and Gohighlevel integrations to manage customer relationships and automate sales processes.",
+        "title": "CRM & GoHighLevel",
+        "description": "Custom CRM development and full-service GoHighLevel setup—pipelines, funnels, and AI assistants that keep sales and marketing in sync.",
         "gradient": "from-purple-500 via-pink-500 to-purple-600",
         "iconBg": "from-purple-500 to-pink-500",
         "hoverGradient": "from-purple-500/10 to-pink-500/10"
@@ -264,17 +267,17 @@
         "hoverGradient": "from-cyan-500/10 to-blue-500/10"
       },
       {
-        "icon": "FiPackage",
-        "title": "Packaging Design",
-        "description": "Structural packaging, dielines, and retail-ready artwork—from concept sketches to production files that match your brand and fulfilment workflow.",
+        "icon": "FiSmartphone",
+        "title": "Mobile App Development",
+        "description": "Native-feel iOS and Android apps built with React Native—from first prototype to app-store launch and ongoing feature releases.",
         "gradient": "from-fuchsia-500 via-purple-500 to-violet-600",
         "iconBg": "from-fuchsia-500 to-purple-500",
         "hoverGradient": "from-fuchsia-500/10 to-purple-500/10"
       },
       {
-        "icon": "FiPrinter",
-        "title": "Printing & Labels",
-        "description": "High-quality commercial printing, labels, and finishing—colour-accurate proofs, consistent runs, and materials suited for shelf-ready packaging.",
+        "icon": "FiTrendingUp",
+        "title": "Digital Marketing & Design",
+        "description": "Brand identity, UI/UX design, SEO, and growth campaigns—built to convert traffic into customers and keep your brand consistent everywhere.",
         "gradient": "from-amber-500 via-orange-500 to-rose-600",
         "iconBg": "from-amber-500 to-orange-500",
         "hoverGradient": "from-amber-500/10 to-orange-500/10"
@@ -423,14 +426,14 @@
   "faqSection": {
     "badge": "FAQ · Pixalbotic",
     "title": "Clear Answers, Faster Decisions",
-    "subtitle": "Get straightforward guidance on software, AI, and custom packaging so your team can plan and execute with confidence.",
+    "subtitle": "Get straightforward guidance on software, AI, and mobile development so your team can plan and execute with confidence.",
     "sideBadge": "Quick Support",
     "sideTitle": "Still have questions?",
-    "sideBody": "Talk to Pixalbotic experts for software strategy, AI implementation, and custom packaging planning tailored to your business goals.",
+    "sideBody": "Talk to Pixalbotic experts for software strategy, AI implementation, and mobile app planning tailored to your business goals.",
     "sideChipLabels": [
       "Software",
       "AI",
-      "Packaging",
+      "Mobile",
       "Support"
     ],
     "contactCta": {
@@ -483,8 +486,8 @@
     "infoCard": {
       "title": "Contact Information",
       "emailHeading": "Email",
-      "emailDisplay": "info@pixalbotics.com",
-      "emailHref": "mailto:info@pixalbotics.com",
+      "emailDisplay": "info@pixalbotic.com",
+      "emailHref": "mailto:info@pixalbotic.com",
       "phoneHeading": "Phone",
       "ukBranch": "UK branch",
       "pkBranch": "Pakistan branch",
@@ -596,7 +599,7 @@
     "about": {
       "pageHero": {
         "title": "About Pixalbotics",
-        "description": "We build intelligent software and ship beautiful packaging—one partner for SaaS, AI, APIs, design, and print.",
+        "description": "We build intelligent software and beautiful products—one partner for SaaS, AI, mobile apps, and design.",
         "badge": "About Us",
         "topic": "cloud"
       }

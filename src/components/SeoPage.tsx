@@ -9,6 +9,7 @@ type SeoPageProps = {
   ctaText?: string;
   imageSrc?: string;
   imageAlt?: string;
+  relatedLinks?: Array<{ label: string; href: string }>;
 };
 
 export default function SeoPage({
@@ -18,7 +19,8 @@ export default function SeoPage({
   ctaHref = "/contact",
   ctaText = "Request a consultation",
   imageSrc = "/pixalbotics-logo.png",
-  imageAlt = "custom packaging boxes",
+  imageAlt = "Pixalbotics software solutions",
+  relatedLinks,
 }: SeoPageProps) {
   return (
     <section className="w-full bg-white py-16 sm:py-20 lg:py-24">
@@ -34,6 +36,19 @@ export default function SeoPage({
             <p className="text-lg leading-8 text-gray-700">{section.content}</p>
           </div>
         ))}
+        {relatedLinks && relatedLinks.length > 0 && (
+          <div className="mb-8 flex flex-wrap gap-3">
+            {relatedLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="inline-flex items-center rounded-lg border border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 transition hover:border-blue-500 hover:text-blue-600"
+              >
+                {link.label} &rarr;
+              </Link>
+            ))}
+          </div>
+        )}
         <Link
           href={ctaHref}
           className="inline-flex rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"

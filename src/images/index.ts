@@ -21,7 +21,7 @@ export const images = {
     /** Aliases for older keys */
     branding: pixal1,
     softwareScene: pixal4,
-    packagingScene: heroScene,
+    secondaryScene: heroScene,
     splash: pixal2,
     cube: pixal3,
   },
