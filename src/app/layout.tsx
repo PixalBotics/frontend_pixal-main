@@ -182,7 +182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Analytics />
 
         
-<script src="https://cdn.convergeit.app/widget/pixalbotics/pixal-tech/pixalbotics/assetsloader.js" defer></script>
+<script data-cfasync="false" src="https://api-staging.convergeit.app/widget/quasars/quasars-solutions/quasars.solutions/assetsloader.js" defer></script>
         
       </body>
     </html>
